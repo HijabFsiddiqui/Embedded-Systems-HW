@@ -4861,6 +4861,36 @@
     "CONFIG_SENSOR",
     "y",
     "bool",
+    "y",
+    "assign",
+    [
+      "/home/hijab-fatima-siddiqui/zephyrproject/zephyr/hw2/prj.conf",
+      16
+    ]
+  ],
+  [
+    "CONFIG_SENSOR_INIT_PRIORITY",
+    "y",
+    "int",
+    "90",
+    "default",
+    [
+      "/home/hijab-fatima-siddiqui/zephyrproject/zephyr/drivers/sensor/Kconfig",
+      20
+    ]
+  ],
+  [
+    "CONFIG_SENSOR_ASYNC_API",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_SENSOR_INFO",
+    "y",
+    "bool",
     null,
     "unset",
     null
@@ -5384,20 +5414,9 @@
     "CONFIG_PICOLIBC_IO_FLOAT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_PICOLIBC_IO_LONG_LONG",
-    "y",
-    "bool",
     "y",
     "default",
-    [
-      "/home/hijab-fatima-siddiqui/zephyrproject/zephyr/lib/libc/picolibc/Kconfig",
-      34
-    ]
+    null
   ],
   [
     "CONFIG_STDOUT_CONSOLE",
@@ -5640,9 +5659,12 @@
     "CONFIG_CBPRINTF_FP_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "assign",
+    [
+      "/home/hijab-fatima-siddiqui/zephyrproject/zephyr/hw2/prj.conf",
+      18
+    ]
   ],
   [
     "CONFIG_CBPRINTF_FP_A_SUPPORT",
